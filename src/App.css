@@ -1,0 +1,23 @@
+:root {
+  --border-radius-primary: 10px;
+  --color-gray-primary: #f5f5f5;
+  --color-page-background: #f5f5f5;
+  --color-text-secondary: #7B7B7B;
+  --color-text-disabled: #AFAFAF;
+  --color-text-primary: #333;
+  --color-brand-primary: #FFEC00;
+  --color-main-accent: #ffffff;
+  --color-brand-secondary: #0091FF
+} 
+
+body {
+  margin: 0;
+  background: var(--color-main-accent);
+  font-family: Inter;
+  background-color: #fff
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}

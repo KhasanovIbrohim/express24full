@@ -1,0 +1,120 @@
+.intro {
+  &-box {
+    &-big {
+      width: 1300px;
+      margin-left: 70px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    &-mini {
+      width: 1300px;
+      margin-left: 70px;
+      height: 130px;
+      justify-content: space-between;
+      margin-top: 40px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+      transition: all 0.5s ease;
+      scroll-behavior: smooth;
+
+      &-element {
+        width: 200px;
+        border-radius: 10px;
+        height: 130px;
+        display: inline-block;
+      }
+
+      &-prev {
+        position: absolute;
+        padding: 5px;
+        padding: 10px 10px 5px 10px;
+        border-radius: 20px;
+        margin-top: 40px;
+        margin-left: -20px;
+        border: none;
+        cursor: pointer;
+      }
+
+      &-next {
+        position: absolute;
+        margin-left: 1277px;
+        transform: rotate(180deg);
+        padding: 10px 10px 5px 10px;
+        margin-top: 40px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+
+    &-big {
+      &-title {
+        font-size: 35px;
+        margin-top: 55px;
+        font-weight: bold;
+      }
+
+      &-carusel {
+        width: 1300px;
+        height: 300px;
+        justify-content: space-between;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        transition: all 0.5s ease;
+        scroll-behavior: smooth;
+
+        &-element {
+          display: inline-block;
+          border-radius: 10px;
+
+          img {
+            width: 260px;
+            border-radius: 10px;
+            height: 150px;
+          }
+
+          h1 {
+            font-family: "Inter";
+            font-weight: 400;
+            font-size: 18px;
+          }
+
+          p {
+            font-size: 12px;
+            font-family: "Inter";
+            color: gray;
+            margin-top: -10px;
+          }
+        }
+
+        &-prev {
+          position: absolute;
+          padding: 5px;
+          padding: 10px 10px 5px 10px;
+          border-radius: 20px;
+          margin-top: 80px;
+          margin-left: -20px;
+          border: none;
+          cursor: pointer;
+        }
+
+        &-next {
+          position: absolute;
+          margin-left: 1277px;
+          transform: rotate(180deg);
+          padding: 10px 10px 5px 10px;
+          margin-top: 80px;
+          border-radius: 20px;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
